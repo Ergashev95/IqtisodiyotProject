@@ -1,0 +1,38 @@
+@media screen and (max-width: 991px) {
+    .header__parent{
+        padding: 10px 15px;
+    }
+    .header-menu-list{
+        width: 100%;
+        max-width: 500px;
+        height: 100vh;
+        min-height: 300px;
+        position: absolute;
+        top: 0;
+        left: 1000px;
+    }
+    .header-menu-list .navbar-list .nav-item {
+        width: 100%;
+        text-align: left;
+        padding: 0 15px;
+        background-color: var(--primary-color);
+    }
+    .navbar-list{
+        flex-direction: column;
+    }
+    .header-logo img{
+        width: 60px;
+        height: 60px;
+    }
+    .header__links{
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 577px) {
+    
+}
+
+@media only screen and (min-width: 578px) {
+    
+}
