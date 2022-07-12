@@ -17,12 +17,18 @@
         padding: 0 15px;
         background-color: var(--primary-color);
     }
-    .navbar-list{
+    .header-menu-list .navbar-list{
+        height: 100%;
         flex-direction: column;
+        justify-content: center;
+        background-color: var(--primary-color);
     }
-    .header-logo img{
-        width: 60px;
-        height: 60px;
+    .header-menu-list .navbar-list .nav-link:hover{
+        background: transparent;
+    }
+
+    .header-menu-list .navbar-list .nav-link {
+        padding: 7px 15px;
     }
     .header__links{
         padding: 10px 0;
